@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Survey Form</title>
+</head>
+<body>
+    <h1 id="title">Survey Form</h1>
+        <p id="description">Thank you for participating in this survey.</p>
+        
+            <form id="survey-form">
+                <!-- defines a single-line text field -->
+                <label for="name" id="name-label">Name:</label><br>
+                <input id="name" type="text" placeholder="Enter your name" required><br><br>
+
+                <!-- defines a field for only an e-mail address -->
+                <label for="email" id="email-label">Email:</label><br>
+                <input id="email" type="email" placeholder="Enter your email" required><br><br>
+
+                <!-- defines a field for only numbers 18 to 100 -->
+                <label for="number" id="number-label">Age (Optional):</label><br>
+                <input id="number" type="number min="18" max="100" placeholder="Enter your age"><br><br>
+
+                <!-- dropdown list where you van only choose one option -->
+                <label for="occupation">Occupation:</label><br>
+                <select id="dropdown">
+                <option value="fulltimejob">Full Time Job</option>
+                <option value="parttimejob">Part Time Job</option>
+                <option value="student">Student</option>
+                <option value="other">Other</option>
+                </select><br>
+                
+                <!-- radio button list where you can only choose one option -->
+                <p>Would you recommend us?</p>
+                <input id="yes" type="radio" value="yes" name="recommend"> Yes<br>
+                <input id="no" type="radio" value="no" name="recommend"> No<br>
+                <input id="imnotsure" type="radio" value="imnotsure" name="recommend"> I'm not sure<br>
+                
+                <!-- checkbox list where you can choose many options -->
+                <p>What would you like to see improved? (Check all that apply)</p>
+                <input id="front-end" type="checkbox" value="front-end"> Front-end Projects<br>
+                <input id="back-end" type="checkbox" value="back-end"> Back-end Projects<br>
+                <input id="data" type="checkbox" value="data"> Data Visualization<br>
+                <input id="opensource" type="checkbox" value="opensource"> Open Source Community<br>
+                
+                <!-- Textarea where you can write anything and as much you want -->
+                <p>Any other comments or suggestions?</p>
+                <textarea id="comments"></textarea><br><br>
+                <button id="submit" type="submit"> Submit
+            </form>
+</body>
+</html>
