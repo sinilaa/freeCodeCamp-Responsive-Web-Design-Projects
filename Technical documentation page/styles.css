@@ -1,0 +1,119 @@
+/* website body styles */ 
+body {
+  margin: 0;
+}
+
+/* navigation bar header styles */
+#nav-header {
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 30px;
+  color: #000000;
+  text-align: center;
+}
+
+/* navigation bar list styles */
+.nav-list {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  width: 25%;
+  background-color: #ffffff;
+  position: fixed;
+  height: 100%;
+  overflow: auto;
+  border: #919191 solid 1.5px;
+}
+
+/* navigation bar link styles */
+li .nav-link {
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 18px;
+  color: #454545;
+  display: block;
+  padding: 8px 16px;
+  text-decoration: none;
+  text-align: left;
+}
+
+/* navigation bar link active hover styles */
+li .nav-link:hover {
+  background-color: #919191;
+  color: white;
+}
+
+/* main element "#main-doc" styles */
+#main-doc {
+  margin-left: 25%;
+  padding: 40px;
+  height: 1000px;
+}
+
+/* main element "#main-doc" header styles */
+#main-header {
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 30px;
+  color: #000000;
+}
+
+/* main element "#main-doc" paragraph styles */
+p {
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 16px;
+  color: #454545;
+}
+
+/* main element "#main-doc" code styles */
+.code {
+  background-color: rgb(245, 245, 245);
+  color:#4e4e4e;
+  font-size: 12px;
+  border-radius: 10px;
+  padding: 20px;
+  margin: 10px;
+}
+
+/* main element "#main-doc" disc list styles */
+.main-list-disc li {
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 16px;
+  color: #454545;
+  padding: 10px 0;
+  margin: 0 10px;
+  list-style-type:disc;
+}
+
+/* main element "#main-doc" circle list styles */
+.main-list-circle li {
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 16px;
+  color: #454545;
+  padding: 10px 0;
+  margin: 0 80px;
+  list-style-type:circle;
+}
+
+/* responsive media queries for different screen sizes */
+@media screen and (max-width: 700px) {
+  .nav-list {
+    width: 100%;
+    height: 200px;
+    position: relative;
+  }
+  .nav-list li .nav-link {
+    text-align: center;
+    float:none;
+  }
+  #main-doc {
+    margin: 0 auto;
+  }
+}
+  
+@media screen and (max-width: 400px) {
+  .nav-list li .nav-link {
+    text-align: center;
+    float: none;
+  }
+  #main-doc {
+    margin: 0 auto;
+  }
+}
