@@ -1,0 +1,13 @@
+#bottom {
+    background-color: red;
+    height: 100px;
+}
+
+.social {
+    color: rgb(0, 4, 255);
+    padding: 10px;
+    font-size: 20px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+}
