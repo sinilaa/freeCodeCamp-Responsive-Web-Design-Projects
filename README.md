@@ -1,4 +1,4 @@
-![image](https://github.com/sinilaa/freeCodeCamp-Responsive-Web-Design-Projects/assets/100212955/cc47c0b7-1028-4ade-975d-abb38b36741a)# freeCodeCamp-Responsive-Web-Design-Projects
+freeCodeCamp-Responsive-Web-Design-Projects
 
 Learning responsive web design with FreeCodeCamp projects and getting my first certification.<br>
 
