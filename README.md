@@ -8,4 +8,4 @@ Just keep that in mind! :stuck_out_tongue_winking_eye:
 <br>
 <b>Projects:</b><br>
 Personal portfolio webpage<br>
-Example site: <link rel="https://personal-portfolio.freecodecamp.rocks/">
+Example site: https://personal-portfolio.freecodecamp.rocks/
