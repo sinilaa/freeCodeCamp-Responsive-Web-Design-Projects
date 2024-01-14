@@ -7,7 +7,7 @@ Just keep that in mind! :stuck_out_tongue_winking_eye:
 <br>
 <br>
 <b>Projects:</b>
-<b>Thecnical document page</b>
+<b>Technical document page</b>
 <br><br>
 Example site: https: //technical-documentation-page.freecodecamp.rocks/ <br>
 Project requirements: https://www.freecodecamp.org/learn/2022/responsive-web-design/build-a-technical-documentation-page-project/build-a-technical-documentation-page
