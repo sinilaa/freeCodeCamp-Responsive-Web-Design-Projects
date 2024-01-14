@@ -7,6 +7,7 @@ body {
 #nav-header {
   font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   font-size: 30px;
+  font-weight: 500;
   color: #000000;
   text-align: center;
 }
@@ -21,7 +22,7 @@ body {
   position: fixed;
   height: 100%;
   overflow: auto;
-  border: #919191 solid 1.5px;
+  border: #000000 solid 2px;
 }
 
 /* navigation bar link styles */
@@ -37,8 +38,9 @@ li .nav-link {
 
 /* navigation bar link active hover styles */
 li .nav-link:hover {
-  background-color: #919191;
-  color: white;
+  background-color: rgb(235, 255, 228);
+  color: black;
+  font-weight: 500;
 }
 
 /* main element "#main-doc" styles */
@@ -52,6 +54,7 @@ li .nav-link:hover {
 #main-header {
   font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   font-size: 30px;
+  font-weight: 500;
   color: #000000;
 }
 
@@ -64,8 +67,9 @@ p {
 
 /* main element "#main-doc" code styles */
 .code {
-  background-color: rgb(245, 245, 245);
-  color:#4e4e4e;
+  background-color: rgb(235, 255, 228);
+  border: 2px solid black;
+  color:#454545;
   font-size: 12px;
   border-radius: 10px;
   padding: 20px;
@@ -90,6 +94,16 @@ p {
   padding: 10px 0;
   margin: 0 80px;
   list-style-type:circle;
+}
+
+/* link styles */
+.link {
+  color: #000000;
+}
+
+/* link hover styles */
+.link:hover {
+  color: #454545;
 }
 
 /* responsive media queries for different screen sizes */

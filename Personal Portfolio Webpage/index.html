@@ -9,28 +9,36 @@
 </head>
 
 <body>
+    <!-- Top navigation start here -->
     <div id="navbar">
         <div id="navcontent">
-        <li><a href="#">Contact</a></li>
-        <li><a href="#">Projects</a></li>
+        <li><a href="#footer-menu">Contact</a></li>
+        <li><a href="#projects-site">Projects</a></li>
         <li><a href="#">About</a></li>
         </div>
     </div>
+    <!-- Top navigation end here -->
 
     <header>
-        <div id="about-site">
-            <section id="welcome-section">
-            <h1> Hey,<br>I'm Sini,<br>Web developer</h1>
-            <p>Passionet about front-end development,<br>UX/UI design and learning new stuff.</p>
-            </section>
-        </div>
+        <!-- Welcome section start here -->
+        <section id="welcome-section">
+            <div id="welcome"> <!-- Welcome section content flexbox start here -->
+            <img src="pics/undraw_mobile_development_re_wwsn (1).svg">
+                <div class="text">
+                <h1> Hey,<br>I'm Sini,<br>Web developer</h1>
+                <p>Passionet about web development,<br>UX/UI design and learning new stuff.</p>
+                </div>
+            </div> <!-- Welcome section content flexbox end here -->
+        </section>
+        <!-- Welcome section end here -->
     </header>
 
-    <div class="projects-site">
+    <div id="projects-site">
         <div class="main">
+            <!-- Projects section start here -->
             <section id="projects">
             <h2>Projects</h2>
-                <div class="row">
+                <div class="row"> <!-- Projects in first row start here -->
                     <div class="column">
                         <div class="project">
                         <a href="https://github.com/sinilaa/freeCodeCamp-Responsive-Web-Design-Projects" target="_blank">
@@ -48,9 +56,9 @@
                         </a>
                         </div>
                     </div>
-                    </div>
+                </div> <!-- Projects in one row end here -->
                 
-                <div class="row">
+                <div class="row"> <!-- Projects in second row start here -->
                     <div class="column">
                         <div class="project">
                         <a href="https://github.com/sinilaa/freeCodeCamp-Responsive-Web-Design-Projects" target="_blank">
@@ -68,14 +76,16 @@
                         </a>
                         </div>
                     </div>
-                </div>
+                </div>  <!-- Projects in second row end here -->
             </section>
+            <!-- Projects section end here -->
         </div>
     </div>
 
-    <div id="footer-menu">
+    <!-- Footer start here -->
+    <div id="footer-menu"> <!-- First footer menu start here -->
     <h2>Follow me</h2>
-        <div class="social-links">
+        <div class="social-links"> <!-- Social media links -->
         <a href="https://github.com/sinilaa/freeCodeCamp-Responsive-Web-Design-Projects" target="_blank" id="profile-link" class="social">
         <i class="fa fa-github"></i>
         </a>
@@ -95,13 +105,14 @@
         <h2>Contact me</h2>
         <p>Email: email@email.com</p>
         <p>Mobile: 000 123 4567</p>
-    </div>
+    </div> <!-- First footer menu end here -->
 
     <hr>
 
-    <footer>
-        <p>**This is just fake portfolio. All the projects, contact info and social media profile excpect GitHub are not real.</p><br>
+    <footer> <!-- Second footer menu start here -->
+        <p>**This is just fake portfolio. All the projects, contact info and social media profile excpect GitHub are not real or correct.</p><br>
         <p>© Created for <a href="https://www.freecodecamp.org/"> FreeCodeCamp</a> project.</p>
-    </footer>
+    </footer> <!-- Second footer menu stop here -->
+    <!-- Footer end here -->
 
 </body>
