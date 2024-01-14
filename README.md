@@ -1,4 +1,4 @@
-freeCodeCamp-Responsive-Web-Design-Projects
+<h1>freeCodeCamp-Responsive-Web-Design-Projects</h1>
 
 Learning responsive web design with FreeCodeCamp projects and getting my first certification.<br>
 
