@@ -1,3 +1,4 @@
 # freeCodeCamp-Responsive-Web-Design-Projects
 
-FreeCodeCamp Responsive Web Design- certification projects. 
+Learning responsive web design with FreeCodeCamp projects and getting my certification.
+All the projects is made with only practice in mind, so they are far from perfect. 
