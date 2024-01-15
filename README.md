@@ -31,4 +31,4 @@ Just keep that in mind! :stuck_out_tongue_winking_eye:
 [Example site](https://personal-portfolio.freecodecamp.rocks/) <br>
 [Project requirements](https://www.freecodecamp.org/learn/2022/responsive-web-design/build-a-personal-portfolio-webpage-project/build-a-personal-portfolio-webpage)
 <br><br>
-.md/freeCodeCamp-Responsive-Web-Design-Projects/blob/main/Responsive_Web_Design_Certification.png
+![Screenshot](Responsive_Web_Design_Certification.png)
