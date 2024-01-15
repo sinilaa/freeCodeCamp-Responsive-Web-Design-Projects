@@ -9,7 +9,7 @@ Just keep that in mind! :stuck_out_tongue_winking_eye:
 <b>Projects:</b>
 <b>Tribute page</b
 <br><br>
-[Example site] (https://tribute-page.freecodecamp.rocks/)
+[Example site](https://tribute-page.freecodecamp.rocks/) <br>
 [Project requirements] (https://www.freecodecamp.org/learn/2022/responsive-web-design/build-a-tribute-page-project/build-a-tribute-page)
 <b>Technical document page</b>
 <br><br>
